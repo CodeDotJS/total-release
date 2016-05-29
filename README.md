@@ -12,6 +12,7 @@ $ npm install --save total-release
 
 ## Usage
 
+__CASE : 1__
 ```js
 'use strict';
 
@@ -20,6 +21,18 @@ const totalRelease = require('total-release');
 totalRelease('instavim').then(releaseCount => {
 	console.log(releaseCount);
 	// => 4
+});
+```
+
+__CASE : 2__
+```js
+'use strict';
+
+const totalRelease = require('total-release');
+
+totalRelease('curver').then(releaseCount => {
+	console.log(releaseCount);
+	// => 1.0.0 is the latest release
 });
 ```
 
