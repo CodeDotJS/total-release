@@ -1,6 +1,6 @@
 {
   "name": "total-release",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Find the total releases of a node package available on npm",
   "license": "MIT",
   "repository": {
