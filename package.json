@@ -1,0 +1,44 @@
+{
+  "name": "total-release",
+  "version": "1.0.0",
+  "description": "Get the latest version of an npm package",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/total-release.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "total",
+    "release",
+    "npm",
+    "pkg",
+    "package",
+    "number",
+    "total-release",
+    "module"
+  ],
+  "dependencies": {
+    "got": "*",
+    "cheerio": "*",
+    "pinkie-promise": "*"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/total-release/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/total-release#readme",
+  "main": "index.js"
+}
