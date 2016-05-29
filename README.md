@@ -2,6 +2,8 @@
 
 > Find the total releases of a npm package
 
+[![Build Status](https://travis-ci.org/CodeDotJS/total-release.svg?branch=master)](https://travis-ci.org/CodeDotJS/total-release)
+
 ## Install
 
 ```
