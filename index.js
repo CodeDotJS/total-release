@@ -5,7 +5,7 @@ var got = require('got');
 var Promise = require('pinkie-promise');
 
 function remuseChars(getString) {
-	if(getString.indexOf('of') !== -1) {
+	if (getString.indexOf('of') !== -1) {
 		return getString.substring(getString.indexOf('of') + 2).replace(' releases', '').trim();
 	}
 	return getString.split('is')[0].trim() + ' is the latest release';
