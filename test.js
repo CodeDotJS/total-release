@@ -2,7 +2,8 @@ import test from 'ava';
 import fn from './';
 
 test(async t => {
-	const latestVersion = await fn('instavim');
+	const totalRelease = await fn('express');
 
-	t.is(latestVersion, '4');
+	t.is(totalRelease.releases, '274');
 });
+
